@@ -1,0 +1,14 @@
+{
+  "type": "RESUME",
+  "version": "1.0.0",
+  "contents": {
+    "experience": [
+      {
+        "title": "Software Engineer",
+        "company_name": "static",
+        "location": "Chicago, IL",
+        "industry": "Research"
+      }
+    ]
+  }
+}
