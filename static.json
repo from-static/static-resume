@@ -1,13 +1,39 @@
 {
   "type": "RESUME",
   "version": "1.0.0",
+  "metadata": {
+    "title": "Resume | Jane Doe",
+    "description": "This is an example resume generated from a static.json file."
+  },
   "contents": {
+    "person": {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "givenName": "Jane",
+      "familyName": "Doe",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Seattle",
+        "addressRegion": "WA",
+        "postalCode": "98052",
+        "streetAddress": "20341 Whitworth Institute 405 N. Whitworth"
+      },
+      "email": "jane-doe@xyz.edu",
+      "name": "Jane Doe",
+      "telephone": "(425) 123-4567"
+    },
     "experience": [
       {
         "title": "Software Engineer",
         "company_name": "static",
         "location": "Chicago, IL",
         "industry": "Research"
+      },
+      {
+        "title": "JOB TITLE",
+        "company_name": "COMPANY NAME",
+        "location": "LOCATION",
+        "industry": "INDUSTRY"
       }
     ]
   }

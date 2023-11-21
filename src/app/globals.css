@@ -9,3 +9,7 @@
   --ultra-violet: #625979;
   --tekhelet: #4C2C72;
 }
+
+.bg-light-green {
+  background-color: var(--light-green);
+}
