@@ -1,6 +1,7 @@
 {
-  "type": "RESUME",
-  "version": "1.0.0",
+  "_static": {
+    "generator": "from-static/static-resume"
+  },
   "metadata": {
     "title": "Resume | Jane Doe",
     "description": "This is an example resume generated from a static.json file."
@@ -19,7 +20,6 @@
         "streetAddress": "20341 Whitworth Institute 405 N. Whitworth"
       },
       "email": "jane-doe@xyz.edu",
-      "name": "Jane Doe",
       "telephone": "(425) 123-4567"
     },
     "experience": [
@@ -30,10 +30,16 @@
         "industry": "Research"
       },
       {
-        "title": "JOB TITLE",
-        "company_name": "COMPANY NAME",
-        "location": "LOCATION",
-        "industry": "INDUSTRY"
+        "title": "JOB TITLE 1",
+        "company_name": "COMPANY NAME 1",
+        "location": "LOCATION 1",
+        "industry": "INDUSTRY 1"
+      },
+      {
+        "title": "JOB TITLE 0",
+        "company_name": "COMPANY NAME 0",
+        "location": "LOCATION 0",
+        "industry": "INDUSTRY 0"
       }
     ]
   }
