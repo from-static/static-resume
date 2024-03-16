@@ -8,9 +8,10 @@ export default function Home() {
       <div>
         <h1>{person.givenName} {person.familyName}</h1>
         <address>
-          {person.address.streetAddress}
-          <br />
-          {person.address.addressLocality}, {person.address.addressRegion} {person.address.postalCode}
+          {person.address?.streetAddress && (
+            <>{person.address?.streetAddress}<br /></>
+          )}
+          {person.address?.addressLocality ?? ''}, {person.address?.addressRegion ?? ''} {person.address?.postalCode ?? ''}
         </address>
         {person.email}
         <br />
