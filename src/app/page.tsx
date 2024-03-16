@@ -1,6 +1,6 @@
-import DATA from '../../static.json';
+import _STATIC from '../../static.json';
 
-const { person, experience } = DATA.contents;
+const { person, experience } = _STATIC.data.attributes.contents;
 
 export default function Home() {
   return (
