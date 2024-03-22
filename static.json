@@ -8,8 +8,8 @@
     "version": "1.0.0",
     "attributes": {
       "metadata": {
-        "title": "Resume | Jane Doe",
-        "description": "This is an example resume generated from a static.json file."
+        "title": "Jane Doe's Resume",
+        "description": "Jane Doe's Resume built with @from-static/static-resume"
       },
       "contents": {
         "person": {
@@ -19,32 +19,18 @@
           "familyName": "Doe",
           "address": {
             "@type": "PostalAddress",
-            "addressLocality": "Seattle",
-            "addressRegion": "WA",
-            "postalCode": "98052",
-            "streetAddress": "20341 Whitworth Institute 405 N. Whitworth"
-          },
-          "email": "jane-doe@xyz.edu",
-          "telephone": "(425) 123-4567"
+            "addressLocality": "New York",
+            "postalCode": "10001",
+            "addressRegion": "NY",
+            "streetAddress": "123 Main St"
+          }
         },
         "experience": [
           {
             "title": "Software Engineer",
             "company_name": "@from-static",
             "location": "Chicago, IL",
-            "industry": "Research"
-          },
-          {
-            "title": "JOB TITLE 1",
-            "company_name": "COMPANY NAME 1",
-            "location": "LOCATION 1",
-            "industry": "INDUSTRY 1"
-          },
-          {
-            "title": "JOB TITLE 0",
-            "company_name": "COMPANY NAME 0",
-            "location": "LOCATION 0",
-            "industry": "INDUSTRY 0"
+            "industry": "Technology"
           }
         ]
       }

@@ -1,4 +1,4 @@
-import _STATIC from '../../static.json';
+import _STATIC from "../../static";
 
 const { person, experience } = _STATIC.data.attributes.contents;
 
